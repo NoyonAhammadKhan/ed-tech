@@ -7,3 +7,22 @@
     opacity: 0.6;
     background-size: cover;
 } */
+
+.carousel-item1, .carousel-item2, .carousel-item3{
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.carousel-item1{
+    background-image: url("./images/cover/cover-1.png");
+}
+.carousel-item2{
+    background-image: url("./images/cover/cover-2.jpg");
+}
+.carousel-item3{
+    background-image: url("./images/cover/cover-3.jpg");
+}
