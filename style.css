@@ -7,7 +7,7 @@
     opacity: 0.6;
     background-size: cover;
 } */
-
+/* 
 .carousel-item1, .carousel-item2, .carousel-item3{
     background-size: auto;
     background-repeat: no-repeat;
@@ -25,7 +25,15 @@
 }
 .carousel-item3{
     background-image: url("./images/cover/cover-3.jpg");
+} */
+
+
+
+/* Corousel Caption Positioning */
+.carousel-caption{
+    bottom: 280px;
 }
+
 
 
 .feedback-img{
@@ -40,4 +48,17 @@
 
 .explore-course{
     background-color: #F4FAFD;
+}
+
+
+
+/*In Mobile And Tablet View */
+@media screen and (max-width:992px) {
+    .hide-course, .hide-company{
+        display: none;
+    }
+    .carousel-caption{
+        bottom: 0px;
+    }
+    
 }
